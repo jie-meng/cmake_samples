@@ -4,9 +4,11 @@
 
     cd build 
 
-    cmake .. 
+    cmake -DCMAKE_INSTALL_PREFIX=/tmp/t2/usr ..
 
     make
+
+    make install
 
 ## Run
 
