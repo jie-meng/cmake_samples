@@ -1,4 +1,4 @@
-# t2: a better hello world
+# t2: a better hello world (out-of-source, install)
 
 ## Build
 
