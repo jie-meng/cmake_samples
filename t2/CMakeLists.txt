@@ -1,3 +1,6 @@
 PROJECT(HELLO)
 
-ADD_SUBDIRECTORY(src bin) # target from src would be generated under bin directory
+MESSAGE(STATUS "This is BINARY dir: " ${HELLO_BINARY_DIR})
+MESSAGE(STATUS "This is SOURCE dir: " ${HELLO_SOURCE_DIR})
+
+ADD_SUBDIRECTORY(src)
